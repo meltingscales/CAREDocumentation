@@ -20,7 +20,7 @@
 
 These should be accessed if physically using the CARE server laptop.
 
-These local connections are routed [here](https://github.com/meltingscales/drakonix.systems/blob/master/nginx/drakonix.systems.conf#L54) as well, under `proxy_pass`.
+These local connections are routed [here](https://github.com/meltingscales/drakonix.systems/blob/master/nginx/drakonix.systems.conf#L54) <https://github.com/meltingscales/drakonix.systems/blob/master/nginx/drakonix.systems.conf#L54> as well, under `proxy_pass`.
 
 - [http://localhost:3003 - CAREShelterDonationDataAggregation](http://localhost:3003)
 - [http://localhost:3002 - animal-shelter-donation-thermometer](http://localhost:3002)
