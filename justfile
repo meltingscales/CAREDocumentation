@@ -12,6 +12,15 @@ compile-docs:
         -M title="CARE Documentation" \
         -M date="$(date +%Y-%m-%d)"
 
+# Build the local sites quick-reference PDF
+compile-local-guide:
+    pandoc LOCAL-SITES-GUIDE.md \
+        -o LOCAL-SITES-GUIDE.pdf \
+        --pdf-engine=pdflatex \
+        -V geometry:margin=1in \
+        -M title="CARE Local Sites Guide" \
+        -M date="$(date +%Y-%m-%d)"
+
 # Install required dependencies (CachyOS / Arch)
 install-deps-cachyos:
     sudo pacman -S --needed pandoc texlive-basic texlive-fontsrecommended

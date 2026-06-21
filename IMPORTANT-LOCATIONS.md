@@ -42,6 +42,20 @@ All these repositories live under `/home/careops/Git/*`.
 - ~/Git/CAREShelterDonationDataAggregation
 - ~/Git/animal-shelter-donation-thermometer
 
+## Initial Setup
+
+Clone all CARE repositories onto the server:
+
+```bash
+cd ~/Git
+
+git clone git@github.com:meltingscales/CARERabiesStats.git
+git clone git@github.com:meltingscales/CARECatStatus.git
+git clone git@github.com:meltingscales/meowderall.git
+git clone git@github.com:meltingscales/CAREShelterDonationDataAggregation.git
+git clone git@github.com:meltingscales/animal-shelter-donation-thermometer.git
+```
+
 ## Git Repositories (on internet)
 
 - <https://github.com/meltingscales/CARERabiesStats>
