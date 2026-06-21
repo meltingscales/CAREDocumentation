@@ -2,6 +2,8 @@
 # Build all *.md files into a single PDF
 compile-docs:
     pandoc README.md PASSWORDS.md IMPORTANT-LOCATIONS.md READING-SYSTEMD-LOGS.md \
+        CARE-RABIES-STATS.md CARE-CAT-STATUS.md MEOWDERALL.md \
+        CARE-SHELTER-DONATION-AGGREGATION.md CARE-THERMOMETER.md \
         -o CAREDocumentation.pdf \
         --pdf-engine=pdflatex \
         -V geometry:margin=1in \
